@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="Joe'spersonal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal website</title>
+</head>
+<body>
+    <div class="box"  data-tilt-max data-tilt-glare data-tilt-max-glare="0.5"  data-tilt-scale="1.1"  >
+        <img src="personalimage.jpg" alt="" class="box-img" width="200" height="300">
+        <h1>Son [Joe] Nguyen</h1>
+        <h2>Sophomore at Stevens Institute of Technology</h2>
+        <p>Major: Computer Science</p>
+        <p>Minor: Physics</p>
+        <p>Graduation year: 2026</p>
+        <h2>Skills</h2>
+        <p>Python Java Javascript C++ C SQL HTML/CSS</p>
+        
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelector(".box"), {
+            max: 5,
+            speed: 400,
+            glare: true,   // if it should have a "glare" effect
+            scale: 1.05,
+            perspective:            1000,
+
+
+
+        });
+    </script>
+</body>
+</html>
