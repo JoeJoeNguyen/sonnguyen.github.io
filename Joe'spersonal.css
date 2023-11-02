@@ -12,7 +12,8 @@ body
 
 #top-right-button {
     border-radius: 10px;
-    margin-top: 10%; /* Adjust the top value to control the distance from the top */
+    margin: auto;
+    //margin-top: 10%; /* Adjust the top value to control the distance from the top */
     right: 10px; /* Adjust the right value to control the distance from the right */
     background-color: rgba(0,0,0, 0.3);
     color: white;
