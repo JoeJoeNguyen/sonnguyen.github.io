@@ -18,11 +18,32 @@
         <p>Graduation year: 2026</p>
         <h2>Skills</h2>
         <p>Python Java Javascript C++ C SQL HTML/CSS</p>
+        <h2>About Me:</h2>
+        <p>Hi, and thank you for making this far 😁. I'm Joe, and I'm an international student from Vietnam pursuing my dream in America.
+        I've been living in New York City since 2019. I see myself as an active, confident, highly motivated, funny, and always open to opportunities
+            person.</p>
+        <p>Feel free to contact me, and have yourself a good day!</p>
         
+    </div>
+    <div class="container" data-tilt-max data-tilt-glare data-tilt-max-glare="0.5"  data-tilt-scale="1.1">
+        <button class="btn-2" id="top-right-button">More Me</button>
+        <div class="content">
+            <!-- Your page content goes here -->
+        </div>
     </div>
     <script type="text/javascript" src="vanilla-tilt.js"></script>
     <script>
         VanillaTilt.init(document.querySelector(".box"), {
+            max: 5,
+            speed: 400,
+            glare: true,   // if it should have a "glare" effect
+            scale: 1.05,
+            perspective:            1000,
+
+
+
+        });
+        VanillaTilt.init(document.querySelector(".container"), {
             max: 5,
             speed: 400,
             glare: true,   // if it should have a "glare" effect
